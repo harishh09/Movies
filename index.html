@@ -1,33 +1,44 @@
-<html>
-    <head>
-        <title>StarMovies</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body class="bdy">
-        <img src="STARMOVIES-logos_black.png" >
-        <div class="main">
-           <h1>Sign In</h1>
-            
-                <br/>
-                <input type="email" placeholder="Email or Phone number">
-                <br/>
-                <input type="password" placeholder="Password">
-                <br/>
+<!DOCTYPE html>
+<html lang="en">
 
-                <input type="submit" value="sign in">
-                <br/>
-                <input type="checkbox">Remember me
-                
-                <a href="#">Need Help?</a>
-            </form>
-            <div class="content">
-                <h4>New to StarMovies?<br><a href="#" class="kl">Sign Up Now.</a></h4>
-                <br>
-                <br>
-                <h4 class="h">This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.</h4>
-            </div>
-        </div>
-        
-    </body>
-    <script src="script.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Star Movies Subscription</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Choose Your Plan</h1>
+    <div class="plans">
+      <div class="plan">
+        <h2>Basic</h2>
+        <p>Access to a wide range of movies and TV shows</p>
+        <p>Price: $9.99/month</p>
+        <button class="btn-select" onclick="selectPlan('Basic')">Select</button>
+      </div>
+      <div class="plan">
+        <h2>Standard</h2>
+        <p>Access to HD quality content</p>
+        <p>Price: $12.99/month</p>
+        <button class="btn-select" onclick="selectPlan('Standard')">Select</button>
+      </div>
+      <div class="plan">
+        <h2>Premium</h2>
+        <p>Access to Ultra HD quality content</p>
+        <p>Price: $15.99/month</p>
+        <button class="btn-select" onclick="selectPlan('Premium')">Select</button>
+      </div>
+    </div>
+    <div class="selected-plan">
+      <h2>Your Selected Plan:</h2>
+      <p id="selected-plan"></p>
+      <button class="btn-submit" onclick="submitForm()">Continue</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
 </html>
