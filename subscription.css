@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background: body;
-    background: linear-gradient(150deg, #1f0a98 ,#000000);
+    background: rgba(12, 11, 11, 0.933);
     color:white;
   }
   
@@ -38,7 +38,7 @@ body {
   }
   
   .btn-select {
-    background-color: #150e4b;
+    background-color: rgba(216, 13, 13, 0.917);
     color: white;
     border: none;
     padding: 10px 20px;
@@ -52,7 +52,7 @@ body {
   }
   
   .btn-submit {
-    background-color: #150e4b;
+    background-color: rgba(216, 13, 13, 0.917);
     color: white;
     border: none;
     padding: 10px 20px;
