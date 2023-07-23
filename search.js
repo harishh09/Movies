@@ -55,7 +55,7 @@ function loadMovieDetails(){
     
             searchList.classList.add('hide-search-list');
             movieSearchBox.value = "";
-            const result = await fetch(`http://www.omdbapi.com/?i=${movie.dataset.id}&apikey=f3ccc7aa`);
+            const result = await fetch(`http://www.omdbapi.com/?t=${movie.dataset.id}&apikey=f3ccc7aa`);
             const movieDetails = await result.json();
         
             displayMovieDetails(movieDetails);
