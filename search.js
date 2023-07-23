@@ -6,7 +6,7 @@ const resultGrid = document.getElementById('result-grid');
 
 
 async function loadMovies(searchTerm){
-    const URL = `https://omdbapi.com/?s=${searchTerm}&page=1&apikey=fc1fef96`;
+    const URL = `https://omdbapi.com/?s=${searchTerm}&page=1&apikey=f3ccc7aa`;
     const res = await fetch(`${URL}`);
     const data = await res.json();
 
@@ -55,7 +55,7 @@ function loadMovieDetails(){
     
             searchList.classList.add('hide-search-list');
             movieSearchBox.value = "";
-            const result = await fetch(`https://api.themoviedb.org/3/search/movie?&api_key=04c35731a5ee918f014970082a0088b1&query=`);
+            const result = await fetch(`http://www.omdbapi.com/?i=${movie.dataset.id}&apikey=f3ccc7aa`);
             const movieDetails = await result.json();
         
             displayMovieDetails(movieDetails);
