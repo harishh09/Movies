@@ -15,7 +15,7 @@ span{
     color: yellow;
 }
 nav{
-    background-color: rgba(252, 28, 28, 0.883);
+    background-color: #D35400;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,8 @@ nav .mainMenu li a{
 
 }
 nav .mainMenu li a:hover{
-    background: pink;
+    background:rgba(255, 255, 255, 0.3);
+    
 
 }
 nav .openMenu{
@@ -175,9 +176,109 @@ h2 a {
     padding: 0.4rem;
     margin: 0.4rem;
 }
-footer i{
-    padding: 2.5rem;
+
+
+.carousel-c{
+    background-color: rgba(253, 254, 254,0.1);
+    border-radius: 10px;
 }
-footer h1 {
-    padding: 1rem;
+.carousel-c:hover .movie-img img{
+    transform: scale(1.1,1.1);
+    transition: .5s;
 }
+.carousel-c:hover{
+    background-color: rgba(253, 254, 254,0.4);
+    border-radius: 10px 0 10px 0;
+    transition: .5s;
+   
+}
+
+.carousel-cell:hover img{
+    transform: scale(1.1,1.1);
+    transition: 1s;
+}
+.containerf{
+    max-width: 1170px;
+    /* background-color: red; */
+    margin: auto;
+}
+.rowf{
+    display: flex;
+    flex-direction: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: black;
+    padding: 70px 0;
+}
+.footer-col{
+    width: 33%;
+    padding: 0 15px;
+
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    background-color: #D35400;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px ;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ffff;
+    display: block;
+}
+.footer-col ul li a:hover{
+    color: #D35400;
+}
+
+.social-links i{
+    color: white;
+    padding: 15px;
+}
+.footer-col .social-links i:hover{
+    color: #D35400;
+}
+
+.footer-col li{
+    font-family: 'EB Garamond', serif;
+}
+.footer-col li a{
+    font-family: 'EB Garamond', serif;
+    text-decoration: none;
+    color: #ffff;
+}
+
+@media(max-width: 574px){
+    .rowf{
+        flex-direction: column;
+    }
+    .footer-col{
+
+        width: 100%;
+    }
+}
+
+
+
