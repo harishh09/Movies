@@ -84,7 +84,22 @@ nav .logo{
         font-size: 1.6rem;
      }
 }
-
+.carousel{
+    height: 80vh;
+    width: 100vw;
+}
+.carousel-cell {
+    width: 95%;
+    height: 80vh;
+    margin-right: 0.5rem;
+    background: green;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+  }
+.banner-img{
+    width: 100%;
+    height: 80vh;
+}
 
 
 .row {
