@@ -83,6 +83,17 @@ nav .logo{
         color: rgba(81, 76, 77, 0.658);
         font-size: 1.6rem;
      }
+     .carousel{
+        height: 50vh;
+        width: 100vw;
+    }
+    .carousel-cell {
+        width: 95%;
+        height: 50vh;
+    }
+    .carousel-c{
+        width:100%;
+    }
 }
 .carousel{
     height: 80vh;
