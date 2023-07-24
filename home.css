@@ -83,8 +83,14 @@ nav .logo{
         color: rgba(81, 76, 77, 0.658);
         font-size: 1.6rem;
      }
-
-
+     .carousel-c{
+        width: 50% !important;
+     }
+    }
+@media(max-width:400px){
+    .carousel-c{
+        width: 80% !important;
+     }
 }
 .carousel{
     height: 80vh;
