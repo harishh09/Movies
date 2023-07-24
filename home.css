@@ -95,6 +95,7 @@ nav .logo{
 .carousel{
     height: 80vh;
     width: 100vw;
+    margin-bottom: 3rem;
 }
 .carousel-cell {
     width: 95%;
