@@ -65,7 +65,7 @@ nav .logo{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: rgba(216, 13, 13, 0.917);
+        background-color: #D35400;
         transition: top 1s ease;
         display:none;
 
