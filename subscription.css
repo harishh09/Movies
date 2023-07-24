@@ -38,7 +38,7 @@ body {
   }
   
   .btn-select {
-    background-color: rgba(216, 13, 13, 0.917);
+    background-color: #D35400;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -52,7 +52,7 @@ body {
   }
   
   .btn-submit {
-    background-color: rgba(216, 13, 13, 0.917);
+    background-color: #D35400;
     color: white;
     border: none;
     padding: 10px 20px;
